@@ -4170,7 +4170,8 @@ screen and (min-width: 64em) {
 }
 
 .button.warning {
-  background-color: #ffae00;
+  /* background-color: #ffae00; */
+  background-color: orange;
   color: #0a0a0a;
 }
 
