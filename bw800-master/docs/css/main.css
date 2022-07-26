@@ -770,10 +770,12 @@ input {
     /**********************card-profile-stats*************************************/
 
 .card-profile-stats {
-    border: 0px solid #cacaca;
-    margin: 0 0 0 1.25rem;
+    border: 1px solid  lightgray;
+    margin: 0 0.25rem 0 0;
     padding: 1.25rem;
     background: #fefefe;
+    min-height: 23rem;
+    line-height: 3;
   }
   
   .card-profile-stats .card-profile-stats-intro {
