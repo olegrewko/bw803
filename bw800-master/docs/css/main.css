@@ -548,10 +548,7 @@ h6 {
 
 
 
-/* dt {
-    font-weight: 500;
-    color: black;
-} */
+
 
 .grey {
 
@@ -675,23 +672,7 @@ h6 {
     margin-bottom: 1px;
 }
 
-/* .sublogotext {
-    display: inline-block;
-    position: absolute;
 
-
-    top: 0%;
-    left: 0%;
-
-   
-    color: #263846;
-    font-family: 'Montserrat', sans-serif;
-
-
-   
-
-
-} */
 
 
 .orange {
@@ -766,11 +747,12 @@ input {
     border: none;
     text-indent: 100%;
     background: url(../img/up.png) no-repeat 0px 0px;
+    z-index: 20;
   }
     /**********************card-profile-stats*************************************/
 
 .card-profile-stats {
-    border: 1px solid  lightgray;
+    border: 1px solid lightgrey;
     margin: 0 0.25rem 0 0;
     padding: 1.25rem;
     background: #fefefe;
