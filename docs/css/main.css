@@ -17,7 +17,7 @@ body {
     margin-right: 1rem;
     font-family: 'Montserrat', sans-serif;
     font-weight: 600;
-    font-size: 0.7rem;
+    font-size: 1rem;
     overflow-x: hidden;
 
 }
@@ -25,7 +25,7 @@ body {
 p, li {
     font-family: 'Montserrat', sans-serif;
     font-weight: 500;
-    font-size: 0.75rem;
+    font-size: 1rem;
 
 }
 .rotatable{
@@ -1229,4 +1229,111 @@ input {
 	transform: translateY(0);
 	transition: transform var(--transition-time), opacity var(--transition-time);
 }
-/* modal.css */ 
+/* modal.css */
+/* radio */
+.option {
+	display: block;
+	margin-bottom: 0.25rem;
+}
+.custom-radio-black {
+	position: relative;
+	/* vertical-align: text-center; */
+	width: 16px;
+	height: 16px;
+    display: inline-block;
+	border-radius: 50%;
+	background: whitesmoke;
+	border: 2px solid black;
+}
+.custom-radio-white {
+	position: relative;
+	/* vertical-align: text-center; */
+	width: 16px;
+	height: 16px;
+	display: inline-block;
+	border-radius: 50%;
+	background: whitesmoke;
+	border: 2px solid grey;
+}
+.custom-radio-brown {
+	position: relative;
+	/* vertical-align: text-center; */
+	width: 16px;
+	height: 16px;
+	display: inline-block;
+	border-radius: 50%;
+	background: whitesmoke;
+	border: 2px solid brown;
+}
+.custom-radio-black::before {
+	content:'';
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	transform: translate(-50%, -50%);
+	
+	width: 8px;
+	height: 8px;
+	display: inline-block;
+	border-radius: 50%;
+	background: black;
+	display: none;
+}
+.custom-radio-white::before {
+	content:'';
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	transform: translate(-50%, -50%);
+	
+	width: 8px;
+	height: 8px;
+	display: inline-block;
+	border-radius: 50%;
+	background: grey;
+	display: none;
+	
+}
+.custom-radio-brown::before {
+	content:'';
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	transform: translate(-50%, -50%);
+	
+	width: 8px;
+	height: 8px;
+	display: inline-block;
+	border-radius: 50%;
+	background: brown;
+	display: none;
+	
+}
+.mb-5 {
+    margin-bottom: 5px;	
+}
+.real-radio-black:checked + .custom-radio-black::before {
+	display: inline-block;
+}
+.real-radio-white:checked + .custom-radio-white::before {
+	display: inline-block;
+}
+.real-radio-brown:checked + .custom-radio-brown::before {
+	display: inline-block;
+}
+.real-radio-black {
+	position: absolute;
+	-webkit-appearance: none;
+	-moz-appearance: none;
+}
+.real-radio-white {
+	position: absolute;
+	-webkit-appearance: none;
+	-moz-appearance: none;
+}
+.real-radio-brown {
+	position: absolute;
+	-webkit-appearance: none;
+	-moz-appearance: none;
+}
+/* radio */ 
