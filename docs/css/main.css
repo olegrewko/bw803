@@ -506,7 +506,7 @@ li.menu-text {
 }
 
 .waterblue {
-    background: cadetblue;
+    background-color: cadetblue;
 }
 
 .myframegmap {
@@ -1348,3 +1348,6 @@ h6 {
 	padding: 0 var(--gutter);
 	margin: 0 auto;
 }
+.active {
+    background-color: orange;
+  }
