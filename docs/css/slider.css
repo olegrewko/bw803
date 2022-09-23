@@ -2,14 +2,14 @@ body {
 	background-color: #fafafa;
 }
 
-.card {
+/* .card {
 	display: flex;
-}
+} */
 
 .card-slider {
-	width: 592px;
+	max-width: 592px;
 	height: 490px;
-	margin-right: 60px;
+	margin-right: 10px;
 	display: flex;
 }
 

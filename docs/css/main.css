@@ -1,7 +1,12 @@
 html {
     font-size: 100%;
+    box-sizing: border-box;
 
-
+}
+*,
+*::before,
+*::after {
+	box-sizing: inherit;
 }
 
 section,
@@ -89,7 +94,7 @@ p, li {
 
 
 
-.df {
+/* .df {
     display: flex;
     align-items: flex-end;
 }
@@ -100,7 +105,7 @@ p, li {
 
 .pr {
     padding-left: 1 rem;
-}
+} */
 /*Cart*************************************************************************/
 .section-cart {
     @media (max-width: 600px) {
@@ -316,7 +321,7 @@ a:hover {
 
 }
 
-.roll {
+/* .roll {
     position: relative;
     display: inline-block;
 }
@@ -333,7 +338,7 @@ a:hover {
 
 .roll:hover .rollover {
     display: block;
-}
+} */
 
 .hr-line { 
     color:rgba(100, 100, 100, 0.5);
@@ -722,13 +727,13 @@ h6 {
     text-align: center;
 }
 
-input {
+/* input {
     display: block;
     border: 1px solid maroon;
     width: 100%;
-    padding: 1.5rem;
-    margin: 2rem 0;
-}
+    padding: 0rem;
+    margin: 0rem 0rem;
+} */
 
 
 
@@ -1233,7 +1238,7 @@ input {
 /* radio */
 .option {
 	display: block;
-	margin-bottom: 0.25rem;
+	margin-bottom: 0.15rem;
 }
 .custom-radio-black {
 	position: relative;
@@ -1339,7 +1344,7 @@ input {
 /* radio */ 
 .container {
 	/* max-width: 1234px; */
-	width: 1244px;
+	max-width: 1244px;
 	padding: 0 var(--gutter);
 	margin: 0 auto;
 }
