@@ -1233,7 +1233,7 @@ input {
 /* radio */
 .option {
 	display: block;
-	margin-bottom: 0.25rem;
+	margin-bottom: 0.35rem;
 }
 .custom-radio-black {
 	position: relative;
