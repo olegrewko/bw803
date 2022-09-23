@@ -1233,11 +1233,11 @@ input {
 /* radio */
 .option {
 	display: block;
-	margin-bottom: 0.35rem;
+	margin-bottom: 0.25rem;
 }
 .custom-radio-black {
 	position: relative;
-	/* vertical-align: text-center; */
+	vertical-align: text-center;
 	width: 16px;
 	height: 16px;
     display: inline-block;
@@ -1247,7 +1247,7 @@ input {
 }
 .custom-radio-white {
 	position: relative;
-	/* vertical-align: text-center; */
+	vertical-align: text-center;
 	width: 16px;
 	height: 16px;
 	display: inline-block;
@@ -1257,7 +1257,7 @@ input {
 }
 .custom-radio-brown {
 	position: relative;
-	/* vertical-align: text-center; */
+	vertical-align: text-center;
 	width: 16px;
 	height: 16px;
 	display: inline-block;
