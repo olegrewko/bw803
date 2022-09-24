@@ -4128,7 +4128,7 @@ screen and (min-width: 64em) {
 
 .button.expanded {
   display: block;
-  width: 100%;
+  width: 20rem;
   margin-right: 0;
   margin-left: 0;
 }
