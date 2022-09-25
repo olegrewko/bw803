@@ -46,7 +46,7 @@ body {
 
 .slider-block {
 	overflow: hidden;
-	width: calc(100% - 82px - 20px);
+	width: calc(100% - 82px - 120px);
 	background-color: #fff;
 	border: 1px solid #D9D9D9;
 	border-radius: 4px;

@@ -1238,37 +1238,42 @@ h6 {
 /* radio */
 .option {
 	display: block;
-	margin-bottom: 0.15rem;
+
+	
+	margin-bottom: 0.2rem;
 }
 .custom-radio-black {
 	position: relative;
 	vertical-align: text-center;
-	width: 16px;
-	height: 16px;
+	width: 26px;
+	height: 26px;
     display: inline-block;
 	border-radius: 50%;
 	background: whitesmoke;
-	border: 2px solid black;
+	border: 3px solid black;
+    margin-right: 0.3rem;
 }
 .custom-radio-white {
 	position: relative;
 	vertical-align: text-center;
-	width: 16px;
-	height: 16px;
+	width: 26px;
+	height: 26px;
 	display: inline-block;
 	border-radius: 50%;
 	background: whitesmoke;
-	border: 2px solid grey;
+	border: 3px solid grey;
+    margin-right: 0.3rem;
 }
 .custom-radio-brown {
 	position: relative;
 	vertical-align: text-center;
-	width: 16px;
-	height: 16px;
+	width: 26px;
+	height: 26px;
 	display: inline-block;
 	border-radius: 50%;
 	background: whitesmoke;
-	border: 2px solid brown;
+	border: 3px solid #703a2e;
+    margin-right: 0.3rem;
 }
 .custom-radio-black::before {
 	content:'';
@@ -1277,8 +1282,8 @@ h6 {
 	top: 50%;
 	transform: translate(-50%, -50%);
 	
-	width: 8px;
-	height: 8px;
+	width: 18px;
+	height: 18px;
 	display: inline-block;
 	border-radius: 50%;
 	background: black;
@@ -1291,8 +1296,8 @@ h6 {
 	top: 50%;
 	transform: translate(-50%, -50%);
 	
-	width: 8px;
-	height: 8px;
+	width: 18px;
+	height: 18px;
 	display: inline-block;
 	border-radius: 50%;
 	background: grey;
@@ -1306,11 +1311,11 @@ h6 {
 	top: 50%;
 	transform: translate(-50%, -50%);
 	
-	width: 8px;
-	height: 8px;
+	width: 18px;
+	height: 18px;
 	display: inline-block;
 	border-radius: 50%;
-	background: brown;
+	background: #703a2e;
 	display: none;
 	
 }
