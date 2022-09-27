@@ -51,6 +51,24 @@ body {
 	border: 1px solid #D9D9D9;
 	border-radius: 4px;
 }
+@media (max-width: 1000px) {
+	.slider-block {
+		overflow: hidden;
+		width: calc(100% - 82px - 220px);
+		background-color: #fff;
+		border: 1px solid #D9D9D9;
+		border-radius: 4px;
+	}
+  }
+@media (max-width: 400px) {
+	.slider-block {
+		overflow: hidden;
+		width: calc(100% - 82px - 420px);
+		background-color: #fff;
+		border: 1px solid #D9D9D9;
+		border-radius: 4px;
+	}
+  }
 
 .swiper-slide {
 	width: 100%;

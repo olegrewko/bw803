@@ -43,11 +43,11 @@ button.addEventListener('click', function() {
   /*
   Update the text of the button to toggle beween "More" and "Less" when clicked
   */
-  if(button.innerText.toLowerCase() === 'добавить в корзину') {
+  if(button.innerText.toLowerCase() === 'в корзину') {
     button.innerText = 'Товар в корзине';
   }
   else {
-    button.innerText = 'Добавить в корзину';
+    button.innerText = 'В корзину';
   }
 });
 

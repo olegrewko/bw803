@@ -116,7 +116,7 @@
         <li >
          
          
-          <a class="grey"  href="#cart">Cart(0)</a>
+          <a class="grey"  href="#popup">Cart(0)</a>
        
        
         </li>
@@ -315,7 +315,7 @@
               <a class="button expanded secondary"
                id="btn"  type="button" data-toggle="collapse" 
                data-target="#collapseExample" aria-expanded="false"
-                aria-controls="collapseExample" onclick="changeText()">Добавить в корзину</a> 
+                aria-controls="collapseExample" onclick="changeText()">В корзину</a> 
                 
       </div>
    </div>
@@ -1273,7 +1273,7 @@ WiFi, Apple® AirPlay 2®, Spotify® Connect, Roon и Bluetooth совмести
                <dt class=" grey m-5">Цена
                &nbsp250 500&nbspруб</dt>
                <div class="dummy"></div>
-                <a class="button tiny warning ml-10">В корзину</a> 
+                <a class="button expanded warning ml-10">В корзину</a> 
             </div>
              <div class="cell medium-2 large-2 lightgrey">
           <img src="img/71.970.jpg" alt="img/71.970.jpg">
@@ -1309,7 +1309,7 @@ WiFi, Apple® AirPlay 2®, Spotify® Connect, Roon и Bluetooth совмести
           <dt class=" grey m-5">Цена
            &nbsp100 800&nbspруб</dt>
             <div class="dummy"></div> 
-          <a class="button tiny warning ml-10">В корзину</a>
+          <a class="button  warning expanded ml-10">В корзину</a>
 
         </div>
     
@@ -1347,7 +1347,7 @@ WiFi, Apple® AirPlay 2®, Spotify® Connect, Roon и Bluetooth совмести
           <dt class=" grey m-5">Цена
            &nbsp150 800&nbspруб</dt>
             <div class="dummy"></div> 
-          <a class="button tiny warning ml-10">В корзину</a>
+          <a class="button expanded warning ml-10">В корзину</a>
 
         </div>
         <div class="cell medium-2 large-2 lightgrey">
@@ -1384,7 +1384,7 @@ WiFi, Apple® AirPlay 2®, Spotify® Connect, Roon и Bluetooth совмести
           <dt class=" grey m-5">Цена
            &nbsp170 500&nbspруб</dt>
             <div class="dummy"></div> 
-          <a class="button tiny warning ml-10">В корзину</a>
+          <a class="button expanded warning ml-10">В корзину</a>
 
         </div>
         <div class="cell medium-2 large-2 lightgrey">
@@ -1421,7 +1421,7 @@ WiFi, Apple® AirPlay 2®, Spotify® Connect, Roon и Bluetooth совмести
              <dt class=" grey m-5">Цена
              &nbsp200 800&nbspруб</dt>
               <div class="dummy"></div>     
-          <a class="button tiny warning  ml-10">В корзину</a>
+          <a class="button expanded warning  ml-10">В корзину</a>
          
 
         </div>
@@ -1777,22 +1777,40 @@ WiFi, Apple® AirPlay 2®, Spotify® Connect, Roon и Bluetooth совмести
  </div>
 </div> 
 </section>
-<!--  -->
+<!--popup  -->
+<div id="popup" class="popup">
+  <a href="#header" class="popup-area"></a>
+  <div class="popup__body">
+    <div class="popup__content">
 
+      <div class="popup__title">
+        <h4 class=" title01 text-center">Cart | Корзина
+        <a href="#header" class="popup__close">X</a></h4>
+      </div>
+      <div class="popup__text">
+
+
+
+      </div>
+
+
+      </div>
+    </div>
+  </div>
+</div>
+<!--popup  -->
  <!--Cart  -->
 <section id="cart" class="section-cart ml-10"   data-magellan-target="cart">
-  <!-- <div class="reveal" id="exampleModal1" data-reveal>    -->
-<!-- <section class="section-cart"> -->
+
 
   <header class="section-cart__header">
-  <!-- <div class="grid-container"> -->
+  
       <h4 class=" title01 text-center">Cart | Корзина</h4>
-    <!-- </div>  -->
+   
   </header>
  
   <div class="section-cart__body">
-    <!-- <div class="grid-container"> -->
-      <!-- <section class="cart"> -->
+   
 
 
         <header class="cart-header  text-center">
@@ -1812,7 +1830,7 @@ WiFi, Apple® AirPlay 2®, Spotify® Connect, Roon и Bluetooth совмести
         <section class="product ">
    
           <div class="product__image">
-           <!-- <img src="img/72.970.jpg" alt="img/72.970.jpg"> -->
+          
            <img src="img/1332.970.jpg" alt="img/1332.970.jpg">
           </div>
   
@@ -1899,11 +1917,7 @@ WiFi, Apple® AirPlay 2®, Spotify® Connect, Roon и Bluetooth совмести
   </div>
 
 
-<!-- </section> -->
-<!-- <button class="close-button" data-close aria-label="Close modal" type="button">
-  <span aria-hidden="true">&times;</span>
-</button>
-</div> -->
+
 </section>
  <!--Cart  End-->
   <script type="text/javascript">
