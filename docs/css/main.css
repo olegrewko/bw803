@@ -118,7 +118,7 @@ p, li {
 
 }
 .cart-header {
-    column-gap: 5px;
+    column-gap: 0px;
     display: grid;
     grid-template-columns: 2fr 3fr 3fr 3fr 1fr;
 
@@ -132,6 +132,9 @@ p, li {
     }
   
   
+}
+.cart-header__img {
+    grid-column-start: 1;
 }
 .cart-header__title {
     grid-column-start: 2;
@@ -1455,4 +1458,10 @@ h6 {
     background-color: whitesmoke;
     text-align: center;
   }
-  /*popup****************************************  */  
+  /*popup****************************************  */
+  .items {
+	
+	font-size: 16px;
+	
+	text-align: center;
+}  
