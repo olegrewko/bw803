@@ -442,7 +442,8 @@ a:hover {
     flex-direction: row;
     margin: 0 auto;
     justify-content: space-around;
-    align-items: center; 
+    align-items: center;
+     
 }
 
 .w300 {
@@ -1287,7 +1288,7 @@ h6 {
 	display: inline-block;
 	border-radius: 50%;
 	background: whitesmoke;
-	border: 3px solid grey;
+	border: 0px solid grey;
     margin-right: 0.3rem;
 }
 .custom-radio-brown {
@@ -1298,7 +1299,7 @@ h6 {
 	display: inline-block;
 	border-radius: 50%;
 	background: whitesmoke;
-	border: 3px solid #703a2e;
+	border: 0px solid #703a2e;
     margin-right: 0.3rem;
 }
 .custom-radio-black-shelf::before {

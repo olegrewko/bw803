@@ -4090,12 +4090,12 @@ screen and (min-width: 64em) {
   vertical-align: middle;
   margin: 0 0 1rem 0;
   padding: 0.85em 1em;
-  border: 1px solid transparent;
+  border: 0px solid transparent;
   border-radius: 4px;
   -webkit-transition: background-color 0.25s ease-out, color 0.25s ease-out;
   transition: background-color 0.25s ease-out, color 0.25s ease-out;
   font-family: inherit;
-  font-size: 0.9rem;
+  font-size: 1rem;
   -webkit-appearance: none;
   line-height: 1;
   text-align: center;
